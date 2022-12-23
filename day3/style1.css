@@ -1,0 +1,20 @@
+.content{
+	font-size: 20px;
+}
+
+.heading
+{
+	font-size: 20px; 
+	font-style: italic;
+}
+
+.output-heading{
+	font-size: 20px;
+}
+
+.output{
+	font-family: "Comic Sans MS" , "Comic Sans" ,cursive;
+	font-size: 25px;
+	color:darkcyan;
+	text-decoration-line: overline underline;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gradient</title>
+	<style>
+		*{
+			margin :0;
+			padding: 0;
+		}
+		.box1{
+			width :100px;
+			height: 100px;
+			background-image: linear-gradient(#474787,#ff793f,#b33939,#ffffff);
+			float : left;
+			margin-left: 25%;
+			text-align: center;
+		}
+
+		.box2{
+			width: 100px;
+			height: 100px;
+			background-image: radial-gradient(#706fd3,#227093,#ffda79);
+			float: left;
+			text-align: center;
+		}
+
+		.box3{
+			width: 100px;
+			height: 100px;
+			background-image: linear-gradient(#7d5fff,#227093,#ff3838);
+			margin-left : 540px;
+			text-align: center;
+		}
+
+		.heading{
+			font-size: 20px; 
+			font-style: italic;
+		}
+
+		.output{
+			color: green;
+		}
+
+		.output-heading{
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Linear Gradient And Radial Gradient</h1><br>
+
+	<p class="heading">How to apply gradient in div</p>
+	<p><xmp>
+	<head>
+		<style type=text/css>
+			.box1{
+			width :100px;
+			height: 100px;
+			background-image: linear-gradient(#474787,#ff793f,#b33939,#ffffff);
+		</style>
+	</head>
+	</xmp>
+	</p>
+
+	<p class="output-heading">Output:</p>
+
+		<div class="box1">
+    		<h5>This is a box.</h5>
+    	</div>
+    	<div class="box2">
+    		<h5>This is another box.</h5>
+    	</div>
+    	<div class="box3">
+    		<h5>This is another another box.</h5>
+    	</div>
+
+</body>
+</html>
