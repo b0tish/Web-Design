@@ -102,7 +102,6 @@ body{
 	width: 300px;
 	height: 200px;
 	margin-top:200px;
-	margin-left: 250px;
 	background: white;
 	border:1px solid black;
 	position: absolute;
@@ -112,7 +111,7 @@ body{
 	width: 100px;
 	height: 100px;
 	background: red;
-	margin-left: 100px;
+	margin-left: 95px;
 	margin-top: 50px;
 	border-radius: 50%;
 }
@@ -122,7 +121,7 @@ body{
 	width: 300px;
 	height: 200px;
 	margin-top: 200px;
-	margin-left: 750px;
+	margin-left: 500px;
 	position: absolute;
 	border:1px solid black;
 }
@@ -139,3 +138,34 @@ body{
 	background: yellow;
 }
 
+.belgium{
+	width: 300px;
+	height: 200px;
+	margin-top: 200px;
+	margin-left: 1000px;
+	position: absolute;
+	border:1px solid black;
+}
+
+
+.belgium .black_strip{
+	width: 100px;
+	height: 200px;
+	background: black;
+}
+
+.belgium .yellow_strip{
+	width: 100px;
+	height: 200px;
+	margin-top: -200px;
+	margin-left: 100px;
+	background: yellow;
+}
+
+.belgium .red_line{
+	width: 100px;
+	height: 200px;
+	margin-top: -200px;
+	margin-left: 200px;
+	background: red;
+}

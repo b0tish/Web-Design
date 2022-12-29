@@ -1,62 +1,126 @@
-.outer_ring{
+.circle1{
 	width: 200px;
-	height: 200px;
-	border-radius: 100%;
-	background: red;
+	height:200px;
+	border-radius: 200px;
+	background: black;
+	border: 1px solid black;
 	position: absolute;
 }
 
-
-.inner_ring{
-	width: 150px;
-	height: 150px;
-	border-radius: 100%;
-	background: white;
-	margin-left: 24px;
-	margin-top: 24px;
-	position: absolute;
-}
-
-.text{
-	margin-top: 45px;
-    font-size: 50px;
-    color: red;
+.circle2{
+	width: 175px;
+    height: 175px;
+    border-radius: 175px;
+    background: white;
+    margin-left: 13px;
+    margin-top: 14px;
     position: absolute;
-    margin-left: 10px;
 }
 
-.line1{
-	width: 150px;
-    height: 5px;
-    background: red;
-    margin-top: 40px;
-    margin-left: 4px;
+.circle3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 175px;
+    background: black;
+    margin-left: 12px;
+    margin-top: 9px;
+    position: absolute;
 }
 
-.line2{
-	width: 150px;
-    height: 5px;
-    background: red;
-    margin-top: 50px;
-    margin-left: 4px;
+.circle4 {
+    width: 125px;
+    height: 125px;
+    background: white;
+    margin-left: 13px;
+    margin-top: 11px;
+    border-radius: 125px;
+    position: absolute;
+}
+
+.circle5 {
+    width: 100px;
+    height: 100px;
+    background: black;
+    margin-left: 13px;
+    margin-top: 12px;
+    border-radius: 100px;
+    position: absolute;
 }
 
 
-.france{
+.circle6 {
+    width: 75px;
+    height: 75px;
+    background: white;
+    margin-left: 13px;
+    margin-top: 12px;
+    border-radius: 75px;
+    position: absolute;
+}
+
+.circle7{
+	width: 50px;
+    height: 50px;
+    background: black;
+    margin-left: 13px;
+    margin-top: 12px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+
+.black_bar
+{
+	width: 100px;
+	height: 200px;
+	margin-left: 600px;
+	background: black;
+	position: absolute;
+}
+
+.grey1{
+	width: 50px;
+	height: 50px;
+	margin-left: 25px;
+	margin-top: 5px;
+	border-radius: 50px;
+	background: grey;
+}
+
+.grey2{
+	width: 50px;
+	height: 50px;
+	margin-left: 25px;
+	margin-top: 13px;
+	border-radius: 50px;
+	background: grey;
+}
+
+.green1{
+	width: 50px;
+	height: 50px;
+	margin-left: 25px;
+	margin-top: 10px;
+	border-radius: 50px;
+	background: green;
+}
+
+.bg{
 	width: 300px;
 	height: 200px;
-	border: 1px solid black;
-}
-
-.blue_strip{
-	width: 100px;
-	height: 200px;
-	background: blue;
-}
-
-.red_strip{
-	width: 100px;
-	height: 200px;
-	margin-left: 200px;	
 	background: red;
+	margin-left: 1000px;
+	border-radius: 60px;
+	position: absolute;
 }
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid white;
+    margin-left: 105px;
+    margin-top: 40px;
+}
+
