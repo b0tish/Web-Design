@@ -84,7 +84,7 @@
 	margin-left: 25px;
 	margin-top: 5px;
 	border-radius: 50px;
-	background: grey;
+	background: red;
 }
 
 .grey2{
@@ -93,7 +93,7 @@
 	margin-left: 25px;
 	margin-top: 13px;
 	border-radius: 50px;
-	background: grey;
+	background: yellow;
 }
 
 .green1{
@@ -123,4 +123,5 @@
     margin-left: 105px;
     margin-top: 40px;
 }
+
 
