@@ -68,6 +68,14 @@
     position: absolute;
 }
 
+.circle8{
+	width: 25px;
+    height: 25px;
+    background: white;  
+    border-radius: 25px;
+    margin-left: 13px;
+    margin-top: 12px; 
+}
 
 .black_bar
 {
@@ -123,5 +131,4 @@
     margin-left: 105px;
     margin-top: 40px;
 }
-
 
