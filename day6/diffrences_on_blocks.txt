@@ -1,0 +1,12 @@
+Block Element
+	-Default Width = 100%
+	-Block Others Elements
+
+
+Inline/Non Block Element
+	-Depends on the inner content
+	-Doesnt support
+	 	*padding-top
+	 	*padding-bottom
+	 	*margin-top
+	 	*margin-bottom
