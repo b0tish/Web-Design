@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.student{
+	background: #000;
+	min-height: 500px;
+}
+
+.student .container{
+	margin: 0 auto;
+	width: 1170px;
+}
+
+.student .student_title h2{
+	color: white;
+	text-align: center;
+}
+
+
+.student .student_title h4{
+	color: red;
+	text-align: center;
+}
+
+.student-list{
+	display: flex;
+}
+
+.student-detail
+{
+	background: #FFF;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 0 10px;
+}
+
+.student_image{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.student_image img{
+	width: 100%;
+	transition: all linear 0.3s;
+	border-radius: 15px;
+}
+
+.student-detail img{
+	width: 100%;
+	border-radius: 15px;
+}
+
+.student-detail h4{
+	font-size: 24px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.student-detail span{
+	display: block;
+	margin-bottom: 15px;
+	color : #666;
+	text-align: center;
+}
+
+.student-detail:hover img{
+	transform: scale(1.2);
+}
